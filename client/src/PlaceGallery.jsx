@@ -37,7 +37,7 @@ export const PlaceGallery = ({ place }) => {
                   <img
                     onClick={() => setShowAllPhotos(true)}
                     className=""
-                    src={"http://localhost:4000/uploads/" + photo}
+                    src={"https://hotel-booking-mern-3b69.onrender.com/uploads/" + photo}
                   />
                 </div>
               ))}
@@ -57,7 +57,7 @@ export const PlaceGallery = ({ place }) => {
                 <img
                   onClick={() => setShowAllPhotos(true)}
                   className=" cursor-pointer aspect-square object-cover"
-                  src={"http://localhost:4000/uploads/" + place.photos[0]}
+                  src={"https://hotel-booking-mern-3b69.onrender.com/uploads/" + place.photos[0]}
                 />
               </div>
             )}
@@ -67,7 +67,7 @@ export const PlaceGallery = ({ place }) => {
               <img
                 onClick={() => setShowAllPhotos(true)}
                 className="cursor-pointer aspect-square object-cover"
-                src={"http://localhost:4000/uploads/" + place.photos[1]}
+                src={"https://hotel-booking-mern-3b69.onrender.com/" + place.photos[1]}
               />
             )}
             <div className="overflow-hidden">
@@ -75,7 +75,7 @@ export const PlaceGallery = ({ place }) => {
                 <img
                   onClick={() => setShowAllPhotos(true)}
                   className="cursor-pointer aspect-square object-cover relative top-2"
-                  src={"http://localhost:4000/uploads/" + place.photos[2]}
+                  src={"https://hotel-booking-mern-3b69.onrender.com/uploads/" + place.photos[2]}
                 />
               )}
             </div>
