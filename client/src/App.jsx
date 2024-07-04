@@ -14,7 +14,7 @@ import { BookingsPage } from "./pages/BookingsPage";
 import { BookingPage } from "./pages/BookingPage";
 
 //This is Base URL for making Requests from Client  Side to Server Side from port 5173 to--> 4000
-axios.defaults.baseURL = "http://localhost:4000";
+axios.defaults.baseURL = "https://hotel-booking-mern-3b69.onrender.com";
 axios.defaults.withCredentials = true;
 
 //Now What we Want is To always Check whether we are Logged in or Not for that We will use Context API
