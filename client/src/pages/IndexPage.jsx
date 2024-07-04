@@ -33,7 +33,7 @@ export default function IndexPage() {
                     </div>
                     <img
                       className="rounded-2xl shadow shadow-gray-100 hover:shadow-gray-900 object-cover aspect-square"
-                      src={"http://localhost:4000/uploads/" + place.photos[0]}
+                      src={"https://hotel-booking-mern-3b69.onrender.com/uploads/" + place.photos[0]}
                       alt=""
                     />
                   </div>
